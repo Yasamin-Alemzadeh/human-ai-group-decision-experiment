@@ -1,0 +1,7 @@
+pyyaml
+pydantic
+fastapi
+uvicorn[standard]
+pymongo>=4.13
+websockets
+anthropic

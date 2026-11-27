@@ -1,0 +1,4 @@
+__pycache__
+*.pyc
+smoke_test.py
+ws_test.py

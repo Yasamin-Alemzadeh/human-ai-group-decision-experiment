@@ -1,0 +1,11 @@
+experiment:
+  condition: "2h1ai"
+  participants: [human, human, ai]
+  discussion_seconds: 60
+  voting_seconds: 15
+ai:
+  provider: "mock"
+  model: "claude-haiku-5-5"
+  reply_delay_seconds: [2, 6]
+  max_messages_per_round: 3
+  llm_timeout_seconds: 5
